@@ -214,3 +214,20 @@ mkdir ../account
 ```
 cp -rf dist/css/ ../account/public/css
 ```
+
+
+#### Pass Data to Shell Script
+
+You can access passed arguments with $n where n is the argument number
+
+```
+echo $1
+echo $2
+echo $3
+
+./argument.sh hello there hey 
+ 
+ //prints hello there hey
+
+
+```
