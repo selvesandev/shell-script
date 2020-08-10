@@ -231,3 +231,20 @@ echo $3
 
 
 ```
+
+
+### Make a file Executable
+
+```
+chmod +x /tmp/{backup,extract,prepare}-mysql.sh
+```
+
+
+### Download A File
+```
+curl -LO https://raw.githubusercontent.com/do-community/ubuntu-1604-mysql-backup/master/backup-mysql.sh
+```
+
+
+### Shell Script in Linux (Shortcut)
+Create your `.sh` scripting file in `/usr/locan/bin` directory and give it a executable permission `eg: chmod +x file_name.sh` to execute the file from anywhere as `file_name.sh`.
