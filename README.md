@@ -248,3 +248,17 @@ curl -LO https://raw.githubusercontent.com/do-community/ubuntu-1604-mysql-backup
 
 ### Shell Script in Linux (Shortcut)
 Create your `.sh` scripting file in `/usr/locan/bin` directory and give it a executable permission `eg: chmod +x file_name.sh` to execute the file from anywhere as `file_name.sh`.
+
+
+
+
+### COMPRESS & UNCOMPRESS FOLDER
+compress
+```
+tar -zcvf archive-name.tar.gz directory-name
+```
+
+uncompress
+```
+tar -zxvf prog-1-jan-2005.tar.gz -C /tmp
+```
