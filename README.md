@@ -26,6 +26,15 @@ echo Hello World
 
 ```
 NAME="Brad"
+
+parent_dir="/backups/mysql"
+defaults_file="/etc/mysql/backup.cnf"
+todays_dir="${parent_dir}/$(date +%a)"
+log_file="${todays_dir}/backup-progress.log"
+encryption_key_file="${parent_dir}/encryption_key"
+now="$(date +%m-%d-%Y_%H-%M-%S)"
+processors="$(nproc --all)"
+
 ```
 
 #### User Input
